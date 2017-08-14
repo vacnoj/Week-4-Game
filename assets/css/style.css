@@ -1,0 +1,50 @@
+.container-characters {
+	background: black;
+
+	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url("../images/deathStar.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.characters {
+	border: solid black;
+	max-height: 100px;
+	width: auto;
+	padding: 5px;
+	background: darkgray;
+}
+
+#heading {
+	color: gold;
+	margin: 0px;
+	padding: 10px;
+}
+
+.page-header {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background: black;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+.character-card {
+	position: static;
+	display: inline-block;
+	color: #9c8f4a;
+	border: solid #9c8f4a;
+}
+
+#prompt {
+	display: inline-block;
+	color: #9c8f4a;
+	height: 40px;
+	position: relative;
+	margin: 20px 0px;
+}
+
+.opacity {
+	opacity: 0;
+}
